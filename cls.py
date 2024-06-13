@@ -12,8 +12,8 @@ from sklearn.utils import shuffle
 from sklearn.model_selection import train_test_split
 import numpy as np
 
-ROOT_DIR_YOLO = "/user/sfasulo/dataset/detector_dataset/dataset_other"
-ROOT_DIR_CLASS = "/user/sfasulo/dataset/classifier_dataset/"
+ROOT_DIR_YOLO = "/path/detector_dataset/dataset_other"
+ROOT_DIR_CLASS = "/path/dataset/classifier_dataset/"
 
 
 IMG_SIZE = 300  
@@ -135,4 +135,4 @@ model.evaluate(test_x, test_y)
 
 # Salva il modello
 # https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/#transfer-learning-from-pretrained-weights
-model.save('/user/sfasulo/saved_models/efficientnet_model_unfreeze_256.h5')
+model.save('/path/saved_models/efficientnet_model_unfreeze_256.h5')
