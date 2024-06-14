@@ -1,8 +1,8 @@
 from IPython.display import display, Image
 from ultralytics import YOLO
 
-ROOT_DIR_YOLO = "/user/sfasulo/dataset/detector_dataset/dataset_other/"
-model_path = "/user/sfasulo/yolov8s.pt"
+ROOT_DIR_YOLO = "/path/dataset_other/"
+model_path = "/path/yolov8s.pt"
 
 model = YOLO(model_path)
 
