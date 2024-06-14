@@ -1,4 +1,3 @@
-from tensorflow.keras.models import load_model
 import cv2
 from ultralytics import YOLO
 
