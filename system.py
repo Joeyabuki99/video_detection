@@ -2,12 +2,6 @@ from tensorflow.keras.models import load_model
 import cv2
 from ultralytics import YOLO
 
-classifier_class_names = {
-    0: 'Cardboard_box',
-    1: 'Other',
-    2: 'Plastic_bag',
-}
-
 # Carica il modello YOLO
 detector = YOLO(r"C:\path\best.pt")
 
