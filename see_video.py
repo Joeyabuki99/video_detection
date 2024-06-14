@@ -1,6 +1,6 @@
 import cv2
 
-output_path = r"C:\Users\fasul\Desktop\Sabato_UNI\TESI\code\video_out.mp4"
+output_path = r"C:\path\video_out.mp4"
 cap = cv2.VideoCapture(output_path)
 
 if not cap.isOpened():
